@@ -1,0 +1,329 @@
+Ain;Bourg-en-Bresse;01011;Lycée général Lalande;Public;12  AVENUE BOSQUET
+Ain;Bourg-en-Bresse;01001;Lycée général et technologique Edgar Quinet;Public;44  RUE DE GRENELLE
+Drôme;Romans-sur-Isère;26102;Lycée général Albert Triboulet;Public;6 avenue SCHWEISGUTH
+Isère;Fontaine;38600;Lycée professionnel Jacques Prévert;Public;2 rue DE LA PIERRE LARGE
+Isère;Grenoble;38000;Lycée général international Europole;Public;RUE GUSTAVE EIFFEL
+Isère;Grenoble;38029;Lycée polyvalent André Argouges;Public;1 rue DU MOULIN
+Isère;Seyssinet-Pariset;38171;Lycée général et technologique Aristide Bergès;Public;12 rue du Château
+Isère;Villard-de-Lans;38250;Lycée climatique Jean Prévost;Public;100 rue DU SHAH DE PERSE
+Isère;Villefontaine;38091;Lycée polyvalent Léonard de Vinci -Lycée des métiers de l' audiovisuel et du design;Public;75 rue DE REMIREMONT
+Isère;Vizille;38220;Lycée polyvalent Portes de l'Oisans - Lycée des métiers de l'électronique et du numérique;Public;44 rue ABEL FERRY
+Isère;Voiron;38501;Lycée polyvalent Ferdinand Buisson;Public;23 rue THIERS
+Loire;Rive-de-Gier;42800;Lycée polyvalent Georges Brassens;Public;18 passage Turquetil
+Loire;Roanne;42328;Lycée général Jean Puy;Public;9 rue Pierre Bourdan
+Puy-de-Dôme;Chamalières;63400;Lycée polyvalent - Lycée des métiers de l'hôtellerie de la restauration et du tourisme;Public;2 LES BATAILLES
+Rhône;Charbonnières-les-Bains;69260;Lycée général et technologique Blaise Pascal;Public;8 rue Quinault
+Rhône;Givors;69700;Lycée polyvalent Aragon-Picasso - Lycée des métiers;Public;31 boulevard Pasteur
+Rhône;Dardilly;69571;Lycée Horticole;Public;
+Rhône;Neuville-sur-Saône;69582;Lycée Général Rosa Parks;Public;71 rue du Ranelagh
+Rhône;Décines-Charpieu;69153;Lycée polyvalent Charlie Chaplin;Public;45 rue Armand Carrel
+Rhône;Lyon 1er Arrondissement;69283;Lycée général et technologique La Martinière Diderot;Public;17 rue Ligner
+Rhône;Lyon 2e  Arrondissement;69287;Lycée général privé Saint Marc;Privé;23 rue de la Bidassoa
+Rhône;Lyon 4e  Arrondissement;69316;Lycée général et technologique Antoine de Saint-Exupéry;Public;82 Rue Jacques-Louis Hénon
+Rhône;Lyon 5e  Arrondissement;69321;Lycée général et technologique privé Sainte Marie;Privé;71 rue Pasteur
+Rhône;Lyon 5e  Arrondissement;69005;Lycée général et technologique Saint-Just;Public;50 rue Becquerel
+Rhône;Lyon 6e  Arrondissement;69455;Lycée général et technologique Edouard Herriot;Public;DOMAINE DU GUE A TRESMES
+Rhône;Lyon 6e  Arrondissement;69006;Lycée général privé Externat de La Trinité;Privé;2 avenue ROBERT BADINTER
+Rhône;Lyon 7e  Arrondissement;69007;Lycée professionnel privé Chevreul Lestonnac;Privé;19 rue DU LION
+Rhône;Lyon 7e  Arrondissement;69361;Lycée général Cité scolaire internationale;Public;11 rue Victor Hugo
+Rhône;Lyon 7e  Arrondissement;69007;Lycée général et technologique privé Belmont-Capdepon;Privé;Route HURTAULT
+Rhône;Lyon 8e  Arrondissement;69372;Lycée général et technologique La Martinière Monplaisir;Public;6 place JEAN MERMOZ
+Savoie;Aix-les-Bains;73102;Lycée polyvalent Marlioz;Public;50  RUE MONSEIGNEUR RODHAIN
+Savoie;Albertville;73202;Lycée général et technologique Jean Moulin;Public;Rue VICTOR MARTIN
+Savoie;Chambéry;73000;Lycée polyvalent L. Armand;Public;20 rue DU NOUVEL HOPITAL
+Savoie;La Ravoire;73492;Lycée général et technologique du Granier;Public;Boulevard DES HEROS
+Savoie;Sotteville-lès-Rouen;73300;Lycée Sembat;Public;
+Haute-Savoie;Annecy;74001;Lycée général et technologique Charles Baudelaire;Public;Route LA JAILLE
+Haute-Savoie;Annecy;74001;Lycée général L Berthollet;Public;TRIONCELLE
+Haute-Savoie;Annecy;74008;Lycée professionnel G. Sommeiller;Public;37 rue AMEDEE FENGAROL
+Haute-Savoie;La Roche-sur-Foron;74801;Lycée professionnel privé Sainte Famille  -Lycée des métiers de la comptabilité et de la gestion;Privé;4  RUE ACHILLE RENE BOISNEUF
+Haute-Savoie;Moutiers;74540;Lycée Ambroise Croizat;Public;
+Côtes-d'Armor;Quintin;22800;Lycée général et technologique privé Jean XXIII;Privé;ESPLANADE MENDES FRANCE
+Côtes-d'Armor;Saint-Brieuc;22021;Lycée général et technologique Ernest Renan;Public;Esplanade François Mitterrand
+Côtes-d'Armor;Langueux;22360;Lycée Saint Ilan;Privé;
+Finistère;Brest;29223;Lycée général de L'Iroise;Public;3 place DU MANDAROUS
+Finistère;Carhaix-Plouguer;29270;Lycée général privé Diwan;Privé;1 rue AGNES SAVIGNAC
+Finistère;Quimper;29191;Lycée professionnel Jean Chaptal;Public;Chemin DU FERRADOU
+Ille-et-Vilaine;Bain-de-Bretagne;35470;Lycée général et technologique Jean Brito;Public;8 avenue MAURICE FONVIEILLE
+Ille-et-Vilaine;Combourg;35270;Lycee general et technologique Francois Rene de Chateaubriand;Public;27 AVENUE DE L'ISLE
+Ille-et-Vilaine;Rennes;35205;Lycée général et technologique Bréquigny;Public;4 rue DES TEINTURIERS
+Ille-et-Vilaine;Rennes;35083;Lycée général et technologique Victor et Hélène Basch;Public;9 rue MAGE
+Ille-et-Vilaine;Rennes;35703;Lycée général et technologique Joliot-Curie;Public;42 avenue CAMILLE PUJOL
+Ille-et-Vilaine;Rennes;35064;Lycée polyvalent privé Saint Vincent Providence;Privé;150 route DE LAUNAGUET
+Ille-et-Vilaine;Saint-Clément-de-rivière;35270;Lycée Jean Jaurès;Public;
+Ille-et-Vilaine;Vitré;35500;Lycée sainte jeanne d’arc;;
+Morbihan;Hennebont;56704;Lycée général et technologique Victor Hugo;Public;50 bis rue Victor Hugo
+Morbihan;Lanester;56601;Lycée polyvalent Jean Macé;Public;1 rue DE L'ABBE TOURNIER
+Morbihan;Hennebont;56704;Lycée général et technologique privé Notre-Dame du Voeu;Privé;42 rue Jules Ferry
+Morbihan;Lorient;56100;Lycée général et technologique Dupuy de Lôme;Public;
+Morbihan;Lorient;56102;Lycée général et technologique privé Saint Louis;Privé;AVENUE LAPLAGNE
+Morbihan;Vannes;56000;Lycée général et technologique privé Saint Paul;Privé;300  AVENUE LOUIS MEDARD
+Morbihan;Vannes;56000;Lycée Charles de Gaulle;Public;
+Morbihan;Sainte-Anne-d'Auray;56400;Lycée polyvalent privé Sainte Anne-Saint Louis;Privé;717 avenue JEAN MERMOZ
+Calvados;Douvres-la-Délivrande;14440;Lycée général privé Cours Notre-Dame;Privé;3 rue Louis Marchal
+Manche;Cherbourg-en-Cotentin;50130;Lycée général et technologique Jean François Millet;Public;1 bis rue DU SEMINAIRE
+Seine-Maritime;Déville-lès-Rouen;76250;Lycée général et technologique Vallée du Cailly;Public;Rue ST EXUPERY
+Seine-Maritime;Elbeuf;76503;Lycée général et technologique André Maurois;Public;14 rue MESCLIN
+Seine-Maritime;Le Havre;76066;Lycée général François Ier;Public;2 r LICES GEORGES POMPIDOU
+Seine-Maritime;Lillebonne;76170;Lycée général et technologique Guillaume Le Conquérant;Public;1 avenue DU BREUIL
+Seine-Maritime;Rouen;76044;Lycée général Pierre Corneille;Public;10 boulevard Gambetta
+Seine-Maritime;Rouen;76044;Lycée général et technologique Jeanne d'Arc;Public;23 rue DE LA VANNE
+Seine-Maritime;Sotteville-lès-Rouen;76300;Lycée général et technologique Marcel Sembat;Public;Rue MARIE-ROSE GINESTE
+Côte-d'Or;Auxonne;21130;Lycée polyvalent Prieur de La Côte d'Or;Public;28 rue Voltaire
+Côte-d'Or;Chevigny-Saint-Sauveur;21800;Lycée général et technologique Jean-Marc Boivin;Public;6 avenue PRESIDENT KENNEDY
+Côte-d'Or;Dijon;21000;Lycée général et technologique Montchapet;Public;4 RUE MARIE DOUCHET
+Côte-d'Or;Semur-en-Auxois;21140;Lycée polyvalent régional Anna Judic;Public;5 rue PAUL NEY
+Doubs;Besançon;25022;Lycée général et technologique Louis Pergaud;Public;20 boulevard MARCEL SEMBAT
+Jura;Salins-les-Bains;39110;Lycée Victor Considerant;Public;18 place GABRIEL RAMBAUD
+Haute-Saône;Lure;70204;Lycée polyvalent Georges Colomb;Public;57 rue DE LA CHARITE
+Saône-et-Loire;Charolles;71120;Lycée polyvalent Julien Wittmer;Public;1 RUE DE L'EGLISE
+Saône-et-Loire;Cluny;71250;Lycée général et technologique La Prat's;Public;2 RUE DE METZ
+Saône-et-Loire;Mâcon;71018;Lycée général et technologique Lamartine;Public;Rue DES ANGLAIS
+Saône-et-Loire;Mâcon;71000;Lycée René Cassin;Public;
+Saône-et-Loire;Paray-le-Monial;71600;Lycée général et technologique privé Jeanne d'Arc;Privé;34 rue Gambetta
+Saône-et-Loire;Tournus;71700;Lycée général et technologique Gabriel Voisin;Public;22 rue DE LA MESANGE
+Territoire de Belfort;Belfort;90016;Lycée général et technologique Condorcet;Public;8  AVENUE DEBROUSSE
+Eure-et-Loir;Chartres;28006;Lycée général Marceau;Public;Route D'HONFLEUR
+Indre;Châteauroux;36000;Lycée général Jean Giraudoux;Public;12 rue Guillaume Fouace
+Indre-et-Loire;Joué-lès-Tours;37000;Lycée d’arsonval;Public;
+Indre-et-Loire;Tours;37013;Lycée général et technologique Balzac;Public;Rue E  DE SURVILLE
+Indre-et-Loire;Tours;37010;Lycée général Descartes;Public;10 rue du Collège
+Indre-et-Loire;Tours;37012;Lycée général et technologique Paul-Louis Courier;Public;10 rue du Collège
+Loir-et-Cher;Blois;41018;Lycée général et technologique Camille Claudel;Public;Lieu-dit Les Cours
+Loir-et-Cher;Blois;41018;Lycée polyvalent Augustin Thierry;Public;2 rue JEAN MONNET
+Loiret;Gien;45502;Lycée général et technologique Bernard Palissy;Public;CHEMIN DES VERTUS
+Loiret;Orléans;45074;Lycée général et technologique Charles Peguy;Public;1575 boulevard NELSON MANDELA
+Loiret;Orléans;45000;Lycée général et technologique privé Sainte Croix - Saint Euverte;Privé;Avenue Georges Braque
+La Réunion;Saint-Benoît;97470;Lycée général et technologique Amiral Pierre Bouvet;Public;Place Fénelon
+La Réunion;Saint-Denis;97404;Lycée général et technologique privé Levavasseur;Privé;13 RUE DU COUVENT
+La Réunion;Saint-Joseph;97480;Lycée général et technologique Pierre Poivre;Public;151 rue JEAN DE GOUY
+La Réunion;Saint-Leu;97424;Lycée polyvalent Stella;Public;817 rue CHARLES BOURSEUL
+La Réunion;Le Tampon;97430;Lycée polyvalent Pierre Lagourgue;Public;26 rue François Noël Babeuf
+Guadeloupe;Sainte-Clothilde;97491;Lycée Leconte de Lisle;Public;
+Marne;Reims;51726;Lycée général et technologique Marc Chagall;Public;19 rue DES MEURES
+Meurthe-et-Moselle;Lunéville;54300;Lycée général et technologique Ernest Bichat;Public;62 rue de Paris
+Meurthe-et-Moselle;Lunéville;54300;Lycée polyvalent Jacques-Marie Boutet de Monvel - lycée des métiers d'art et de la maîtrise de l'énergie électrique;Public;PASSAGE DE GRAVILLE
+Meurthe-et-Moselle;Nancy;54042;Lycée général privé Notre Dame - Saint Sigisbert;Privé;5 avenue Henri Barbusse
+Meurthe-et-Moselle;Nancy;54000;Lycée général et technologique Jeanne d'Arc;Public;65 avenue du Général Leclerc
+Meurthe-et-Moselle;Pont-à-Mousson;54701;Lycée général et technologique Jacques Marquette;Public;1  PLACE JULES VERNE
+Meurhte-et-Moselle;Saulxures-lès-nancy;54420;Lycée Frédéric Chopin;Public;
+Meurthe-et-Moselle;Vandoeuvre-lès-Nancy;54500;Lycée général et technologique Jacques Callot;Public;152 avenue de Verdun
+Moselle;Bitche;57230;Lycée Louis Casimir Teyssier;Public;
+Moselle;Metz;57000;Lycée général et technologique Louis Vincent;Public;82 avenue Gambetta
+Moselle;Metz;57045;Lycée général et technologique Georges de La Tour;Public;55 avenue Raspail
+Moselle;Phalsbourg;57372;Lycée général et technologique Erckmann Chatrian;Public;2 rue COMPAGNON
+Moselle;Sarrebourg;57401;Lycée polyvalent Mangin;Public;112 avenue Jean Jaurès
+Bas-Rhin;Molsheim;67122;Lycée général et technologique Henri Meck;Public;1 rue DE L EUROPE
+Bas-Rhin;Sélestat;67604;Lycée polyvalent Jean-Baptiste Schwilgué;Public;27 rue DU BALLET
+Bas-Rhin;Strasbourg;67060;Lycée général privé le Gymnase Jean Sturm;Privé;24 avenue DE LA CHOLIERE
+Bas-Rhin;Strasbourg;67061;Lycée général Fustel de Coulanges;Public;129 rue DU LANDREAU
+Haut-Rhin;Ribeauvillé;68150;Lycée général et technologique Ribeaupierre;Public;Avenue DE GONTAUT BIRON
+Nord;Villeneuve-d'Ascq;59650;Lycée général et technologique Raymond Queneau;Public;2 avenue des Flandres
+Nord;Genech;59242;Lycée polyvalent Charlotte Perriand;Public;54 rue DE LILLE
+Nord;Lille;59013;Lycée général Fénelon;Public;27 rue Pasteur
+Nord;Lille;59003;Lycée général privé Thérèse d'Avila;Privé;Rue PAUL LANGEVIN
+Nord;Marcq-en-Baroeul;59702;Lycée général Yves Kernanec;Public;8 boulevard du Général de Gaulle
+Oise;Beauvais;60000;Lycée général et technologique Félix Faure;Public;19 bis rue DE LAHARPE
+Oise;Nogent-sur-Oise;60180;Lycée d'enseignement général et technologique Marie Curie;Public;20 rue JEAN RICHEPIN
+Pas-de-Calais;Lens;62303;Lycée général et technologique Condorcet;Public;9 rue Léo Lagrange
+Pas-de-Calais;Saint-Omer;62505;Lycée général et technologique Alexandre Ribot - Lycée des Métiers de la Gestion de l'Administratif et du Commerce;Public;70 boulevard DE SAINT QUENTIN
+Pas-de-Calais;Saint-Pol-sur-Ternoise;62165;Lycée général et technologique Albert Châtelet;Public;43 rue DES OTAGES
+Somme;Amiens;80037;Lycée général Madeleine Michelis;Public;1 avenue JEAN MONNET
+Paris;Paris  3e  Arrondissement;75003;Lycée général et technologique Simone Weil;Public;44 rue Emile Zola
+Paris;Paris  3e  Arrondissement;75003;Lycée général et technologique Turgot;Public;267 rue FELIX FAURE
+Paris;Paris  3e  Arrondissement;75003;Lycée général Victor Hugo;Public;25 rue Dumont d'Urville
+Paris;Paris  4e  Arrondissement;75004;Lycée général Charlemagne;Public;2  RUE CHARLES SCHERER
+Paris;Paris  4e  Arrondissement;75004;Lycée général et technologique privé Les Francs Bourgeois;Privé;Avenue JEAN PREVOST
+Paris;Paris  5e  Arrondissement;75005;Lycée général Henri IV;Public;27 boulevard GUSTAVE EIFFEL
+Paris;Paris  5e  Arrondissement;75005;Lycée général Louis Le Grand;Public;461  ROUTE DE BELBEUF
+Paris;Paris  6e  Arrondissement;75006;Lycée général Montaigne;Public;4  RUE DU MAULEVRIER
+Paris;Paris  5e  Arrondissement;75005;Lycée général Lavoisier;Public;197 avenue des Alliés
+Paris;Paris  6e  Arrondissement;75006;Lycée privé Saint Sulpice;Privé;31 rue Blaise Pascal
+Paris;Paris  6e  Arrondissement;75006;Lycée général et technologique privé Sainte Geneviève;Privé;1  AVENUE DES QUATRE CANTONS
+Paris;Paris  6e  Arrondissement;75006;Ecole Alsacienne (Lycée général privé);Privé;84 rue Saint Gervais
+Paris;Paris  6e  Arrondissement;75006;Lycée polyvalent privé Saint-Nicolas;Privé;1  RUE ALBERT DUPUIS
+Paris;Paris  7e  Arrondissement;75007;Lycée général Victor Duruy;Public;39  RUE DE L'AVALASSE
+Paris;Paris  8e  Arrondissement;75008;Lycée général et technologique Racine;Public;Allée JOACHIM DU BELLAY
+Paris;Paris  8e  Arrondissement;75008;Lycée général et technologique Chaptal;Public;171 rue de Paris
+Paris;Paris  9e  Arrondissement;75009;Lycée général Condorcet;Public;28 rue BIR HAKEIM
+Paris;Paris 12e  Arrondissement;75012;Lycée général privé Saint Michel de Picpus;Privé;1 rue DE GASCOGNE
+Paris;Paris 13e  Arrondissement;75013;Lycée général Claude Monet;Public;6 avenue HENRI DE BOURNAZEL
+Paris;Paris 15e  Arrondissement;75015;Lycée général privé Sainte Elisabeth;Privé;
+Paris;Paris 15e  Arrondissement;75015;Lycée général Buffon;Public;25  AVENUE G POMPIDOU
+Paris;Paris 15e  Arrondissement;75015;Lycée général privé Blomet;Privé;1  RUE CH MANGOLD
+Paris;Paris 15e  Arrondissement;75015;École Normale Catholique-Blomet;Privé;
+Paris;Paris 16e  Arrondissement;75016;Lycée général Molière;Public;9 rue TURENNE
+Paris;Paris 16e  Arrondissement;75016;Lycée général et technologique Jean-Baptiste Say;Public;Rue COULEAU
+Paris;Paris 16e  Arrondissement;75016;Etablissement privé Notre-Dame des Oiseaux (Ecole secondaire privée);Privé;12 cours Gambetta
+Paris;Paris 17e  Arrondissement;75017;Lycée privé Sainte Ursule-Louise de Bettignies;Privé;12 avenue DU 8 MAI
+Paris;Paris 17e  Arrondissement;75017;Lycée général Carnot;Public;41 rue JAUFRE RUDEL
+Paris;Paris 19e  Arrondissement;75019;Lycée général Georges Brassens;Public;Rue JEAN HAMEAU
+Paris;Paris 20e  Arrondissement;75020;Lycée Privé Sainte-Louise;Privé;40  AVENUE HENRI BRULLE
+Seine-et-Marne;Brie-Comte-Robert;77257;Campus Bougainvillle;Public;
+Seine-et-Marne;Chelles;77500;Lycée général privé Guy Gasnier-Sainte Bathilde;Privé;12  ALLÉE GABRIEL DESHAYES
+Seine-et-Marne;Melun;77007;Ecole générale et technologique privée Saint Aspais;Privé;7 rue Jules Ferry
+Seine-et-Marne;Claye-Souilly;77410;Lycée professionnel le Champ de Claye - Lycée des métiers de l'énergie;Public;4 rue Michel-de-Montaigne
+Seine-et-Marne;Tournan-en-Brie;77220;Lycée polyvalent Clément Ader;Public;8 rue Lepage
+Yvelines;Achères;78260;Lycée polyvalent Louise Weiss;Public;AVENUE DU GROUPE MANOUCHIAN
+Yvelines;Buc;78530;Lycée d'enseignement général Franco Allemand;Public;ALLÉE SAINT LOUIS - RN 568
+Yvelines;Conflans-Sainte-Honorine;78700;Lycée général et technologique Jules Ferry;Public;8 boulevard de la Libération
+Yvelines;Elancourt;78…;Lycée Dumont d’Urville;Public;/
+Yvelines;Guyancourt;78041;Lycée général et technologique de Villaroy;Public;AVENUE GENERAL DE GAULLE
+Yvelines;Mantes-la-Jolie;78201;Lycée général et technologique Saint-Exupéry;Public;131  AVENUE DR ALEXANDER FLEMING
+Yvelines;Marly-le-Roi;78160;Lycée général et technologique Louis de Broglie;Public;10 BOULEVARD JEAN CRISTOFOL
+Yvelines;La-Queue-dez-Yvelines;78940;Lycée Jean Monnet;Public;
+Yvelines;Montigny-le-Bretonneux;78180;Lycée général et technologique privé Saint François d'Assise;Privé;218  RUE CHATEAU REDON
+Yvelines;Montigny-le-Bretonneux;78180;Lycée général et technologique Descartes;Public;16 avenue GASTON CABRIER
+Yvelines;Montigny-le-Bretonneux;78180;Lycée polyvalent Emilie de Breteuil;Public;21 montée  DU PUECH
+Yvelines;Montigny-le-Bretonneux;78180;Lycée général et technologique privé Saint-Exupéry;Privé;MONTÉE DE LA TRANSHUMANCE
+Yvelines;Les Mureaux;78131;Lycée général et technologique François Villon;Public;76 avenue GEORGES BOREL
+Yvelines;Saint-Germain-en-Laye;78100;Lycée polyvalent privé Notre Dame;Privé;75 rue SAINT SAVOURNIN
+Yvelines;Poissy;78300;Lycée général et technologique Le Corbusier;Public;ZONE D'ACTIVITÉ LA HAUTE BEDOULE
+Yvelines;Rambouillet;78120;Lycée général et technologique privé Sainte Thérèse;Privé;BOULEVARD ALFRED CASILE
+Yvelines;Rambouillet;78513;Lycée polyvalent Louis Bascan;Public;AVENUE YITZHAK RABIN
+Yvelines;Saint-Germain-en-Laye;78101;Lycée d'enseignement général International;Public;108 avenue Roger Salengro
+Yvelines;Saint-Germain-en-Laye;78101;Lycée général et technologique Jeanne d'Albret;Public;1 rue SAINT FRANCOIS DE SALES
+Yvelines;Sartrouville;78500;Lycée général et technologique Evariste Galois;Public;13  RUE MONTGRAND
+Yvelines;Versailles;78000;Lycée d'enseignement général Hoche;Public;231  RUE PARADIS
+Yvelines;Versailles;78000;Lycée polyvalent Jules Ferry;Public;50  RUE DE LODI
+Yvelines;Versailles;78000;Lycée général et technologique La Bruyère;Public;52  RUE AUGUSTE BLANQUI
+Yvelines;Le Vésinet;78110;Lycée général et technologique privé Le Bon Sauveur;Privé;1 rue du Rempart
+Yvelines;Villiers-Saint-Frédéric;78…;Lycée Viollet le Duc;Public;
+Essonne;Dourdan;91410;Lycée polyvalent Nikola Tesla;Public;9  RUE DES FORGES
+Essonne;Etampes;91150;Lycée général et technologique privé Jeanne d'Arc;Privé;50  BOULEVARD DE LA BARASSE
+Essonne;Evry-Courcouronnes;91000;Lycée général et technologique Parc des Loges;Public;49  TRAVERSE CAPRON
+Essonne;Gif-sur-Yvette;91192;Lycée général et technologique Vallée de Chevreuse;Public;38  RUE ELECTRICIENS  ST BARNABE
+Essonne;Savigny-sur-Orge;91605;Lycée général et technologique Jean-Baptiste Corot;Public;538 chemin DE LA MADRAGUEVILLE
+Hauts-de-Seine;Antony;92160;Lycée général et technologique privé Sainte Marie La Croix;Privé;1111 boulevard Léon Blum
+Hauts-de-Seine;Boulogne-Billancourt;92100;Lycée du trapèze;Public;
+Hauts-de-Seine;Boulogne-Billancourt;92100;Lycée général et technologique privé Notre Dame;Privé;2229 ROUTE DE FAVEYROLLES
+Hauts-de-Seine;Clamart;92140;Lycée général et technologique Jacques Monod;Public;Boulevard de l'Europe
+Hauts-de-Seine;Issy-les-Moulineaux;92130;Lycée polyvalent Eugène Ionesco;Public;20 rue DANTON
+Hauts-de-Seine;Meudon;92190;Lycée général et technologique Rabelais;Public;251  RUE POURQUOI PAS
+Hauts-de-Seine;Neuilly-sur-Seine;92200;Lycée d'enseignement général Louis Pasteur;Public;138  AVENUE DE TARASCON
+Hauts-de-Seine;Saint-Cloud;92210;Lycée général et technologique Alexandre Dumas;Public;7 cours Aristide Briand
+Hauts-de-Seine;Sceaux;92331;Lycée général et technologique Lakanal;Public;COLLINE ST EUTROPE
+Hauts-de-Seine;Sceaux;92331;Lycée d'enseignement général Marie Curie;Public;ROUTE ETANG DE LA BONDE
+Hauts-de-Seine;Sèvres;92310;Lycée général et technologique Jean-Pierre Vernant;Public;263  CHEMIN DE LUCETTE
+Seine-Saint-Denis;La Courneuve;93120;Lycée général et technologique Jacques Brel;Public;3 rue Cyrille Robert
+Hauts-de-Seine;Vanves;92174;Lycée général et technologique Michelet;Public;1  PLACE PIE
+Seine-Saint-Denis;Montreuil;93100;Lycée général privé Henri Matisse;Privé;3 avenue NOEL FRANCHINI
+Val-de-Marne;Champigny-sur-Marne;94507;Lycée polyvalent Louise Michel - Lycée des métiers de la santé;Public;60 chaussée SAINT MARTIN
+Val-de-Marne;Le Kremlin-Bicêtre;94276;Lycée polyvalent Darius Milhaud;Public;1 rue du Collège
+Val-de-Marne;Nogent-sur-Marne;94130;Lycée général Edouard Branly;Public;14 rue DES BENEDICTINS
+Val-de-Marne;Vincennes;94307;Lycée général et technologique Hector Berlioz;Public;16 rue PORTE DE METZ
+Val-de-Marne;Vitry-sur-Seine;94400;Lycée général et technologique privé Epin;Privé;1 place PAUL LEMAGNY
+Val-d’Oise;Argenteuil;95100;Lycée Saint Joseph;Privé;
+Val-d'Oise;Domont;95331;Lycée polyvalent George Sand;Public;304 avenue du chef Vairaatoa
+Val-d'Oise;Margency;95580;Lycée général et technologique privé Notre Dame de Bury;Privé;
+Charente;Angoulême;16016;Lycée général Guez de Balzac;Public;1 rue JEAN LURCAT
+Dordogne;Périgueux;24001;Lycée général et technologique Jay de Beaufort;Public;23 RUE DES ALOUETTES
+Gironde;Bazas;33430;Lycée professionnel Anatole de Monzie;Public;50  MONTÉE REINE VICTORIA
+Gironde;Blanquefort;33290;Lycée agricole LEGTPA;;
+Gironde;Bordeaux;33075;Lycée général Michel Montaigne;Public;244 avenue de la Libération
+Gironde;Bordeaux;33015;Lycée général et technologique François Mauriac;Public;307 avenue DU MONT CENIS
+Gironde;Bordeaux;33023;Lycée général François Magendie;Public;2 avenue DU RHONE
+Gironde;Bordeaux;33029;Lycée général Montesquieu;Public;1 place DE L. DE TASSIGNY
+Gironde;Bordeaux;33074;Lycée général et technologique Camille Jullian;Public;2 A avenue de Verdun
+Gironde;Cenon;33150;Lycée la morlette;public;
+Gironde;Mérignac;33698;Lycée général et technologique Fernand Daguin;Public;18 RUE BIENHEUREUX PIERRE FAVRE
+Gironde;Talence;33402;Lycée polyvalent Alfred Kastler;Public;5 rue DE LONGVIC
+Lot-et-Garonne;Aiguillon;47190;Lycée général Stendhal;Public;8 boulevard Diderot
+Pyrénées-Atlantiques;Bayonne;64100;Lycée général et technologique privé Largenté;Privé;31 place Barberousse
+Pyrénées-Atlantiques;Bayonne;64100;Lycée général René Cassin;Public;9 avenue Rockefeller
+Pyrénées-Atlantiques;Pau;64000;Lycée général et technologique privé Saint Dominique;Privé;16 place du 11ème chasseurs
+Deux-Sèvres;Niort;79012;Lycée général et technologique Venise Verte;Public;Avenue Charles de Gaulle
+Pyrénées-Atlantiques;Pau;64051;Lycée professionnel privé Immaculée-Conception Beau Frêne - Lycée des métiers de la maintenance et de l'industrie;Privé;1 rue du Dr Jean Georges Girard
+Vienne;Châtellerault;86106;Lycée général et technologique Marcelin Berthelot;Public;2  CHEMIN DE VELOURS
+Vienne;Loudun;86206;Lycée général et technologique Guy Chauvet;Public;42  RUE D ESPAGNE
+Vienne;Poitiers;86001;Lycée polyvalent Nelson Mandela;Public;6 avenue CARMEL LASPORTES
+Vienne;Poitiers;86034;Lycée général et technologique du Bois d'Amour;Public;Château OIHENARTIA
+Vienne;Poitiers;86034;Lycée général et technologique Victor Hugo;Public;1 route DES MISSIONNAIRES
+Haute-Vienne;Limoges;87000;Lycée polyvalent Suzanne Valadon;Public;7 rue de Poitou
+Haute-Vienne;Limoges;87000;Lycée général et technologique Raoul Dautry;Public;69 rue de Turbigo
+Aude;Carcassonne;11802;Lycée général et technologique Paul Sabatier;Public;66 rue Fernand Bodet
+Aude;Narbonne;11108;Lycée Louise Michel;Public;2 avenue de Franche Comté
+Aveyron;Rodez;12000;Lycée général Ferdinand Foch;Public;7 rue DES ARCHIVES
+Gard;Nîmes;30911;Lycée général et technologique Albert Camus;Public;10 rue Gustave Eiffel
+Haute-Garonne;Foix;31000;Lycée Gabriel Fauré;Public;
+Haute-Garonne;Fonsorbes;31470;lycée général Clémence Royer;Public;128 rue HENRI CHAMPION
+Haute-Garonne;Labège;31671;Lycée général et technologique Pierre-Paul Riquet;Public;1 rue MONTESQUIEU
+Haute-Garonne;Muret;31605;Lycée polyvalent Pierre d'Aragon;Public;
+Haute-Garonne;Toulouse;31070;Lycée général et technologique Ozenne;Public;40 rue Victor Hugo
+Haute-Garonne;Toulouse;31079;Lycée général et technologique Stéphane Hessel;Public;5 boulevard EDOUARD BRANLY
+Haute-Garonne;Toulouse;31000;Lycée professionnel privé Sainte-Marie Saint-Sernin - Lycée des métiers commerciaux et administratifs;Privé;1  RUE HONNORAT
+Haute-Garonne;Toulouse;31024;Lycée général et technologique des Arènes;Public;2  AVENUE DES THERMES
+Haute-Garonne;Toulouse;31078;Lycée général et technologique Marcelin Berthelot;Public;159 avenue du Docteur Bernard Foussier
+Haute-Garonne;Toulouse;31079;Lycée général et technologique privé Saint-Joseph-La Salle;Privé;QUARTIER DE LA ROBEYERE
+Hérault;Castelnau-le-Lez;34172;Lycée polyvalent Georges Pompidou;Public;29 rue DU MARECHAL JOFFRE
+Hérault;Lodève;34700;Lycée polyvalent Joseph Vallot;Public;97  RUE ROYALE
+Hérault;Lunel;34402;Lycée polyvalent Louis Feuillade;Public;97  RUE ROYALE
+Hérault;Montpellier;34060;Lycée polyvalent Jules Guesde;Public;26  RUE MAL DE LATTRE DE TASSIGNY
+Hérault;Montpellier;34060;Lycée général et technologique Joffre;Public;AVENUE DE LA TERRASSE
+Hérault;La Grande-Motte;34280;Lycée polyvalent privé La Merci Littoral;Privé;70 RUE DE MONTGERON
+Lot;Saint-Céré;46400;Lycée général Jean Lurçat;Public;20 AVENUE SAINTE LORETTE
+Lozère;Saint-Chely d’Apcher;48200;Lycée polyvalent Théophile Roussel;Public;
+Pyrénées-Orientales;Argelès-sur-Mer;66700;Lycée polyvalent Christian Bourquin;Public;8 rue JULIEN PRANVILLE
+Pyrénées-Orientales;Prades;66500;Lycée polyvalent Charles Renouvier;Public;51  RUE PAUL CEZANNE
+Tarn;Albi;81000;LEGTA albi Fonlabour;Public;
+Tarn;Albi;81000;Lycée général Bellevue;Public;22 rue Michelet
+Tarn;Gaillac;81604;Lycée général et technologique Victor Hugo;Public;200  RUE GEORGES DUBY
+Alpes-de-Haute-Provence;Digne-les-Bains;4000;Lycée Pierre Gilles de Gennes;public;
+Hautes-Alpes;Embrun;5200;Lycée professionnel Alpes et Durance - Lycée des Métiers pluri-actifs du bois et de l'habitat de montagne;public;1 rue DE CROUY
+Hautes-Alpes;Gap;5007;Lycée général et technologique Aristide Briand;public;7  RUE VILLENEUVE
+Alpes-Maritimes;Cannes;6414;Lycée général Carnot;Public;35 rue Hippolyte  Foucque
+Alpes-Maritimes;Grasse;6131;Lycée général et technologique Alexis de Tocqueville;Public;62 rue Auguste Babet
+Alpes-Maritimes;Nice;6050;Lycée polyvalent Honoré d'Estienne d'Orves - Lycée des métiers de la comptabilité;Public;Cité DILLON
+Alpes-Maritimes;Nice;6000;Lycée général et technologique privé Sasserno;Privé;74  RUE DU PR RAYMOND GARCIN
+Alpes-Maritimes;Valbonne;6902;Lycée général et technologique International;Public;Quartier ACAJOU
+Bouches-du-Rhône;Aix-en-Provence;13625;Lycée général et technologique Vauvenargues;Public;13 place DES DEPORTES DE 1944
+Bouches-du-Rhône;Aix-en-Provence;13080;Lycée général et technologique Georges Duby;Public;220 chemin D'ARRAS
+Bouches-du-Rhône;Aix-en-Provence;13090;Lycée technologique privé Célony;Privé;8 boulevard GABRIEL PERONNET
+Bouches-du-Rhône;Aix-en-Provence;13097;Lycée général privé La Nativité;Privé;Rue Albert Einstein
+Bouches-du-Rhône;Aubagne;13400;Lycée général et technologique Frédéric Joliot-Curie;Public;39 place Jules Ferry
+Bouches-du-Rhône;Gardanne;13120;Lycée agricole de valabre;public;
+Bouches-du-Rhône;Luynes;13080;Lycée Georges Duby;Public;
+Bouches-du-Rhône;Salon-de-Provence;13665;Lycée professionnel Adam de Craponne;Public;55 avenue JEAN CHANAL
+Bouches-du-Rhône;Vitrolles;13741;Lycée polyvalent Pierre Mendès France - lycée des métiers de l'aeronautique;Public;Avenue H.GRAND
+Bouches-du-Rhône;Marseille  1er Arrondissement;13232;Lycée général et technologique Thiers;Public;Rue SAINT PIERRE
+Bouches-du-Rhône;Marseille  1er Arrondissement;13232;Lycée général et technologique Saint Charles;Public;10 place DU THEATRE
+Bouches-du-Rhône;Marseille  8e  Arrondissement;13265;Lycée général et technologique Marseilleveyre;Public;Place DE L' EUROPE
+Var;Hyères;83408;Lycée polyvalent Costebelle;Public;Avenue MITTERAND
+Var;Saint-Maximin-la-Sainte-Baume;83470;Lycée Polyvalent de Saint-Maximin-la-Sainte-Baume – Maurice Janetti;Public;Rue de la Geole
+Var;Toulon;83070;Lycée Polyvalent Rouvière;Public;3 rue baron Gérard
+Var;Toulon;83056;Lycée général et technologique Dumont D'Urville;Public;40 rue Victor Lépine
+Var;Toulon;83000;Lycée général privé Fénelon;Privé;14 avenue Albert Sorel
+Var;Toulon;83097;Lycée général et technologique Bonaparte;Public;57 avenue Mal de Lattre de Tassigny
+Var;la garde;83130;Lycée général du Coudon;Public; 65 Avenue Henri Toulouse Lautrec
+Vaucluse;Avignon;84011;Lycée général et technologique privé Louis Pasteur;Privé;Impasse DE L'EGLISE
+Vaucluse;Avignon;84000;Lycée général Frédéric Mistral;Public;20 rue LOUIS NEEL
+Vaucluse;Avignon;84918;Lycée général et technologique Théodore Aubanel;Public;Boulevard DE VILLEFONTAINE
+Vaucluse;Avignon;84000;Lycée général et technologique privé Saint Joseph;Privé;Avenue EDOUARD HERRIOT
+Vaucluse;Carpentras;84205;Lycée général privé Marie Pila;Privé;1 rue DE LA TERRASSE
+Vaucluse;Carpentras;84208;Lycée polyvalent Jean Henri Fabre;Public;31 rue MAINSSIEUX
+Vaucluse;Cavaillon;84300;Lycée général et technologique Ismaël Dauphin;Public;32 rue DES BULLIEUX
+Vaucluse;Orange;84101;Lycée général et technologique de l'Arc;Public;Rue EDOUARD MICHOT
+Loire-Atlantique;Ancenis-Saint-Géréon;44151;Lycée polyvalent Joubert - Emilien Maillard;Public;102 rue LAVOISIER
+Loire-Atlantique;Basse-Goulaine;44115;Lycée général et technologique La Herdrie;Public;25  RUE ALBERT WALTER
+Loire-Atlantique;Gorges;44190;Lycée  général et technologique privé Charles Péguy;Privé;70 avenue GILBERT BERGER
+Loire-Atlantique;Nantes;44184;Lycée général et technologique Carcouët;Public;2 RUE MERCIERE
+Loire-Atlantique;Nantes;44300;Lycée général privé La Perverie Sacré-Coeur;Privé;2 rue DE L'EMBARCADERE
+Loire-Atlantique;Nantes;44322;Lycée général privé Saint Joseph du Loquidy-La Salle;Privé;65  RUE SAINT SIMON
+Loire-Atlantique;Nantes;44265;Lycée polyvalent Nelson Mandela;Public;16 rue DE SAUSSURE
+Loire-Atlantique;Rezé;44400;Lycée général et technologique Jean Perrin - Lycée des métiers de l'électricité et de la domotique;Public;24 rue SAINT JUSTE
+Loire-Atlantique;Saint-Herblain;44800;Lycée Jules Riefel;Public;
+Loire-Atlantique;Saint-Nazaire;44616;Lycée général privé Saint Louis;Privé;261 avenue Général Leclerc
+Maine-et-Loire;Angers;49035;Lycée polyvalent Chevrollier - Lycée des métiers des technologies numériques;Public;0 chemin DES MARMOUSETS
+Maine-et-Loire;Angers;49001;Lycée général et technologique privé Sacré-Coeur La Salle - Lycée des métiers du commerce et de la gestion;Privé;25 avenue DE LA BANQUE
+Maine-et-Loire;Angers;49017;Lycée général et technologique Emmanuel Mounier;Public;16 rue D'ALSACE LORRAINE
+Maine-et-Loire;Sèvremoine;49710;Lycée général et technologique privé Champ Blanc;Privé;8 rue DU DOCTEUR LEBEL
+Mayenne;Château-Gontier-sur-Mayenne;53204;Lycée général et technologique privé Saint Michel;Privé;25 rue CHARLES LECOQ
+Mayenne;Evron;53602;Lycée polyvalent Raoul Vadepied;Public;14 boulevard Léon Blum
+Mayenne;Laval;53000;Lycée professionnel privé Immaculée-Conception;Privé;5 rue MARCEL LANGLOIS
+Mayenne;Laval;53013;Lycée général et technologique Réaumur - Lycée des métiers de la santé du social et de l'aide à la personne;Public;26 avenue DE LA PALETTE
+Mayenne;Laval;53013;Lycée général et technologique Ambroise Paré;Public;11  AVENUE DU JOUR
+Mayenne;Laval;53013;Lycée général et technologique Douanier Rousseau;Public;32  RUE STEPHANE PROUST
+Mayenne;Mayenne;53103;Lycée professionnel Léonard de Vinci - Lycée métiers de l'imprimerie et de la communication visuelle - Lycée métiers des véhicules et du transport;Public;RUE DU GENERAL DECAEN
+Sarthe;Allonnes;72703;Lycée général et technologique André Malraux;Public;171 avenue DE STALINGRAD
+Sarthe;Le Mans;72000;Lycée général et technologique privé Notre-Dame;Privé;8 PLACE NICOLAS FLAMEL
+Vendée;La Roche-sur-Yon;85021;Lycée général et technologique Pierre Mendès France;Public;60 rue MAHATMA GANDHI
