@@ -8,6 +8,7 @@
 	
 	if (empty($_GET["load"])) {
 		$all_maps = $shown_maps;
+		$loaded_maps = array();
 	} else {
 		$loaded_maps = explode(",", $_GET["load"]);
 		$all_maps = array_merge($shown_maps, $loaded_maps);
