@@ -1,6 +1,6 @@
 <?php 
 
-	include 'inc/functions.php';
+	include '../inc/functions.php';
 
 	if (isset($_POST['id'], $_POST['name'], $_POST['description'], $_POST['pubEdit'])) {
 		$status = createMap($_POST['id'], $_POST['name'], $_POST['description'], $_POST['pubEdit']);
@@ -14,7 +14,7 @@
 		<title>Créer une carte - Youth for Climate France</title>
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="assets/bootstrap.min.css" />
+		<link rel="stylesheet" href="../assets/bootstrap.min.css" />
 	</head>
 	<body>
 		<header>
@@ -98,7 +98,7 @@
 		</main>
 		<?php } ?>
 
-		<script src="assets/jquery.min.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script src="../assets/jquery.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
 	</body>
 </html>

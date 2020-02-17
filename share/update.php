@@ -1,6 +1,6 @@
 <?php 
 
-	include 'inc/functions.php';
+	include '../inc/functions.php';
 
 	if (isset($_POST['mapid'], $_POST['pointid'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon'])) {
 
@@ -15,15 +15,16 @@
 <html lang="fr">
 	<head>
 		<title>Modifier un point - Youth for Climate France</title>
-		<link rel="stylesheet" href="assets/leaflet.css"/>
-		<script src="assets/leaflet.js"></script>
+		<link rel="stylesheet" href="../assets/leaflet.css"/>
+		<script src="../assets/leaflet.js"></script>
    		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="assets/bootstrap.min.css" />
-		<script src="assets/lite-editor.min.js"></script>
-		<link rel="stylesheet" href="assets/lite-editor.css">
+		<link rel="stylesheet" href="../assets/bootstrap.min.css" />
+		<script src="../assets/lite-editor.min.js"></script>
+		<link rel="stylesheet" href="../assets/lite-editor.css">
 		<style>
 			#map { height: 300px; }
+			.lite-editor-tooltip-wrap{z-index:1000!important;}
 		</style>
 	</head>
 	<body>
@@ -80,14 +81,14 @@
 		if ($donnees == null) {
 ?>
 
-		<main role="main">
-			<div class="container">
-				<div class="jumbotron mt-3">
-					<h1>Modifier un point</h1>
-					<p class="lead">Erreur : Ce point n'existe pas !</p>
-				</div>
+	<main role="main">
+		<div class="container">
+			<div class="jumbotron mt-3">
+				<h1>Modifier un point</h1>
+				<p class="lead">Erreur : Ce point n'existe pas, le lien de partage est invalide !</p>
 			</div>
-		</main>
+		</div>
+	</main>
 
 <?php
 		} else {
@@ -169,7 +170,7 @@
 				map.setView([myObj.lat, myObj.long], 13);
 			}
 		};
-		req.open("POST", "nominatim-api.php", true);
+		req.open("POST", "../nominatim-api.php", true);
 		req.send(formData);
 	}
 
@@ -196,80 +197,20 @@
 
 <?php
 		}
-	} elseif (isset($_GET['id'])) {
-?>
-
-<main role="main">
-	<div class="container">
-  		<div class="jumbotron mt-3">
-    		<h1>Modifier un point</h1>
-    		<p class="lead">Pour modifier un point, veuillez donnez son identifiant</p>
-			
-			<form class="form-group" method="get">
-				<input type="hidden" name="mapid" id="mapid" required value="<?php echo removeSpecialChars($_GET['id']) ?>" />
-				<div class="input-field col s12 m6">
-					<label for="pointid">Identifiant du point</label>
-					<input class="form-control" type="text" name="pointid" id="pointid" required data-length="20" aria-describedby="pointidHelp" />
-					<small id="pointidHelp" class="form-text text-muted">Sans espaces ni caractères spéciaux</small>
-				</div>
-
-				<button type="submit" class="btn btn-primary" name="action">Modifier</button>
-			</form>
-		</div>
-		<?php if (publicEdit(removeSpecialChars($_GET['id']))) { ?>
-		<p class="lead">Ou sélectionnez-le sur la carte</p>
-
-		<div id="map"></div>
-
-		<script>
-			var map = L.map('map').setView([46.85, 2.3518],6);
-
-			function onEachFeature(featureData, layer) {
-				layer.bindPopup('<h2>'+featureData.properties.name+'</h2><p><a class="btn btn-primary text-white" href=update.php?mapid=<?php echo removeSpecialChars($_GET['id'])?>&pointid='+featureData.properties.id+'>Modifier ce point</a></p>');
-			};
-
-
-			let xhr = new XMLHttpRequest();
-			xhr.open('GET', 'geojson.php?id=<?php echo $_GET["id"] ?>');
-			xhr.setRequestHeader('Content-Type', 'application/json');
-			xhr.responseType = 'json';
-			xhr.onload = function() {
-    			if (xhr.status !== 200) return
-    			geoJsonLayer = L.geoJSON(xhr.response, {
- 					// Executes on each feature in the dataset
-					pointToLayer: function (feature, latlng) {
-            			return L.marker(latlng);
-    				},
-					onEachFeature: onEachFeature
-				});
-				geoJsonLayer.addTo(map);
-			};
-			xhr.send();
-
-			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.youthforclimate.fr">Youth for Climate France</a>'
-			}).addTo(map);
-
-		</script>
-		<?php } ?>
-	</div>
-</main>
-
-<?php
 	} else {
 ?>
 <main role="main">
 	<div class="container">
   		<div class="jumbotron mt-3">
     		<h1>Modifier un point</h1>
-    		<p class="lead">Erreur : Le point recherché est invalide, ou la carte n'existe pas!</p>
+    		<p class="lead">Erreur : Ce point n'existe pas, le lien de partage est invalide !</p>
   		</div>
 	</div>
 </main>
 
 <?php } ?>
 
-		<script src="assets/jquery.min.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script src="../assets/jquery.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
 	</body>
 </html>

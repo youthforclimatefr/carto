@@ -40,33 +40,40 @@ function toGeoJson($id) {
 
 	$clean_id = removeSpecialChars($id);
 
+
 	$geoJson = json_decode('{
 		"type":"FeatureCollection",
 		"features": [],
 		"_umap_options":{
 			"displayOnLoad": true,
 			"browsable": true,
-			"name":"Notre réseau",
-			"id":111717,
+			"name":"Carte Youth for Climate France",
+			"id":0,
 			"remoteData": {}
 		}
 	}');
 
-	$data = $bdd->prepare("SELECT * FROM " . $clean_id);
-	$data->execute();
+	if ( !empty($clean_id) ) {
+		$data = $bdd->prepare("SELECT * FROM " . $clean_id);
+		try {
+			$data->execute();
+		} catch(Exception $e) {
+			return json_encode($geoJson);
+		}
 
-	$point = array();
-	while ($pointData = $data->fetch()) {
-		$point['type'] = "Feature";
-		$point['properties']['name'] = $pointData['name'];
-		$point['properties']['description'] = $pointData['description'];
-		$point['properties']['id'] = $pointData['id'];
-		$point['geometry']['type'] = "Point";
-		$point['geometry']['coordinates'] = [$pointData['lon'], $pointData['lat']];
-		
-		$geoJson->features[] = $point;
+		$point = array();
+		while ($pointData = $data->fetch()) {
+			$point['type'] = "Feature";
+			$point['properties']['name'] = $pointData['name'];
+			$point['properties']['description'] = $pointData['description'];
+			$point['properties']['id'] = $pointData['id'];
+			$point['properties']['source'] = $clean_id;
+			$point['geometry']['type'] = "Point";
+			$point['geometry']['coordinates'] = [$pointData['lon'], $pointData['lat']];
+			
+			$geoJson->features[] = $point;
+		}
 	}
-
 	return json_encode($geoJson);
 }
 

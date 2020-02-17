@@ -1,6 +1,6 @@
 <?php 
 
-	include 'inc/functions.php';
+	include '../inc/functions.php';
 	if (isset($_GET['mapid'], $_GET['pointid'])) {
 		$status = deletePoint($_GET['mapid'], $_GET['pointid']);
 	}
@@ -10,11 +10,11 @@
 <html lang="fr">
 	<head>
 		<title>Modifier un point - Youth for Climate France</title>
-		<link rel="stylesheet" href="assets/leaflet.css" />
-		<script src="assets/leaflet.js"></script>
+		<link rel="stylesheet" href="../assets/leaflet.css" />
+		<script src="../assets/leaflet.js"></script>
    		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="assets/bootstrap.min.css">
+		<link rel="stylesheet" href="../assets/bootstrap.min.css">
 		<style>
 			#map { height: 300px; }
 		</style>
@@ -52,7 +52,7 @@
 			</div>
 		</header>
 
-		<?php if(isset($status)) ?>
+		<?php if(isset($status)) { ?>
 		<main role="main">
 			<div class="container">
 				<div class="jumbotron mt-3">
@@ -75,7 +75,7 @@
 		</main>
 		<?php } ?>
 
-		<script src="assets/jquery.min.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script src="../assets/jquery.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
 	</body>
 </html>

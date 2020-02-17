@@ -1,6 +1,6 @@
 <?php 
 
-	include 'inc/functions.php';
+	include '../inc/functions.php';
 
 	if (isset($_POST['mapid'], $_POST['name'], $_POST['description'], $_POST['pubEdit'])) {
 		$status = updateMap($_POST['mapid'], $_POST['name'], $_POST['description'], $_POST['pubEdit']);
@@ -14,13 +14,13 @@
 <html lang="fr">
 	<head>
 		<title>Modifier un point - Youth for Climate France</title>
-		<link rel="stylesheet" href="assets/leaflet.css"/>
-		<script src="assets/leaflet.js"></script>
+		<link rel="stylesheet" href="../assets/leaflet.css"/>
+		<script src="../assets/leaflet.js"></script>
    		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="assets/bootstrap.min.css" />
+		<link rel="stylesheet" href="../assets/bootstrap.min.css" />
 		<style>
-			#map { height: 300px; }
+			#map { height: 500px; }
 		</style>
 	</head>
 	<body>
@@ -118,6 +118,48 @@
 					
 			<button type="submit" name="action" class="btn btn-primary">Enregistrer</button>
 		</form>
+
+		<div class="jumbotron mt-3">
+    		<h1>Options de partage</h1>
+    		<p class="lead">Partagez un lien libre d'accès pour pemettre à un tiers la création d'un nouveau point sur la carte, ou l'édition d'un point.</p>
+			<div class="btn-group">
+				<a class="btn btn-lg btn-secondary" href="/share/new.php?id=<?php echo $_GET['mapid'] ?>" role="button">Page publique pour ajouter un point</a>
+				<span class="btn btn-lg btn-outline-secondary" onclick="copyToClipboard('https://carto.youthforclimate.fr/share/new.php?id=<?php echo $_GET['mapid'] ?>')">Copier le lien</span>
+			</div>
+			<p class="lead">Sélectionnez le point que vous voulez partager sur la carte</p>
+			<div id="map"></div>
+			<script>
+			var map = L.map('map').setView([46.85, 2.3518],6);
+
+			function onEachFeature(featureData, layer) {
+				layer.bindPopup('<h2>'+featureData.properties.name+'</h2><p><a class="btn btn-primary" href="/share/update.php?mapid=<?php echo $_GET['mapid'] ?>&pointid='+featureData.properties.id+'" role="button">Page publique pour modifier le point</a><span class="btn btn-outline-primary" onclick="copyToClipboard(\'https://carto.youthforclimate.fr/share/update.php?mapid=<?php echo $_GET['mapid'] ?>&pointid='+featureData.properties.id+'\')">Copier le lien</span></p>');
+			};
+
+
+			let xhr = new XMLHttpRequest();
+			xhr.open('GET', '../geojson.php?id=<?php echo $_GET["mapid"] ?>');
+			xhr.setRequestHeader('Content-Type', 'application/json');
+			xhr.responseType = 'json';
+			xhr.onload = function() {
+    			if (xhr.status !== 200) return
+    			geoJsonLayer = L.geoJSON(xhr.response, {
+ 					// Executes on each feature in the dataset
+					pointToLayer: function (feature, latlng) {
+            			return L.marker(latlng);
+    				},
+					onEachFeature: onEachFeature
+				});
+				geoJsonLayer.addTo(map);
+			};
+			xhr.send();
+
+			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.youthforclimate.fr">Youth for Climate France</a>'
+			}).addTo(map);
+
+		</script>
+
+  		</div>
 	</div>
 </main>
 
@@ -136,7 +178,25 @@
 
 <?php } ?>
 
-		<script src="assets/jquery.min.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script>
+			function copyToClipboard (str) {
+				// Create new element
+				var el = document.createElement('textarea');
+				// Set value (string to be copied)
+				el.value = str;
+				// Set non-editable to avoid focus and move outside of view
+				el.setAttribute('readonly', '');
+				el.style = {position: 'absolute', left: '-9999px'};
+				document.body.appendChild(el);
+				// Select text inside element
+				el.select();
+				// Copy text to clipboard
+				document.execCommand('copy');
+				// Remove temporary element
+				document.body.removeChild(el);
+    		}
+		</script>
+		<script src="../assets/jquery.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
 	</body>
 </html>

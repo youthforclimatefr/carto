@@ -1,6 +1,6 @@
 <?php 
 
-	include 'inc/functions.php';
+	include '../inc/functions.php';
 
 	if (isset($_POST['mapid'], $_POST['id'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon'])) {
 		$status = newPoint($_POST['mapid'], $_POST['id'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon']);
@@ -12,15 +12,16 @@
 <html lang="fr">
 	<head>
 		<title>Ajouter un point - Youth for Climate France</title>
-		<link rel="stylesheet" href="assets/leaflet.css" />
-		<script src="assets/leaflet.js"></script>
+		<link rel="stylesheet" href="../assets/leaflet.css" />
+		<script src="../assets/leaflet.js"></script>
    		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="assets/bootstrap.min.css" />
-		<script src="assets/lite-editor.min.js"></script>
-		<link rel="stylesheet" href="assets/lite-editor.css">
+		<link rel="stylesheet" href="../assets/bootstrap.min.css" />
+		<script src="../assets/lite-editor.min.js"></script>
+		<link rel="stylesheet" href="../assets/lite-editor.css">
 		<style>
 			#map { height: 300px; }
+			.lite-editor-tooltip-wrap{z-index:1000!important;}
 		</style>
 	</head>
 	<body>
@@ -148,7 +149,7 @@
 						map.setView([myObj.lat, myObj.long], 13);
   					}
 				};
-				req.open("POST", "nominatim-api.php", true);
+				req.open("POST", "../nominatim-api.php", true);
 				req.send(formData);
 			}
 
@@ -186,7 +187,7 @@
 		
 		<?php } ?>
 
-		<script src="assets/jquery.slim.min.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script src="../assets/jquery.slim.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
 	</body>
 </html>

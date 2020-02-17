@@ -42,7 +42,7 @@
 			<section class="jumbotron text-center">
 				<div class="container">
 				<h1>Cartographie - Youth for Climate France</h1>
-				<p class="lead text-muted">L'outil de cration et de partage de cartes de Youth for Climate France. Par mesure de sécurité, la connexion se fait désormais via le Drive YFC.</p>
+				<p class="lead text-muted">L'outil de cration et de partage de cartes de Youth for Climate France. Vous êtes actuellement sur l'interface de modification publique.</p>
 				<p>
 					<a href="https://drive.youthforclimate.fr/index.php/apps/external/2" class="btn btn-primary my-2">Connexion</a>
 				</p>

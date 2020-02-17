@@ -1,10 +1,17 @@
+<?php 
+
+include '../inc/functions.php';
+$maps = getMapsList();
+	
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<title>Cartographie - Youth for Climate France</title>
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="assets/bootstrap.min.css" />
+		<link rel="stylesheet" href="../assets/bootstrap.min.css" />
 	</head>
 	<body>
 		<header>
@@ -12,7 +19,7 @@
 				<div class="container">
 				<div class="row">
 					<div class="col-sm-8 col-md-7 py-4">
-					<h4 class="text-white">A propos</h4>
+					<h4 class="text-white">Cartographie - Interface administrateur</h4>
 					<p class="text-muted">Bienvenue sur l'application de cartographie de Youth for Climate France. Elle a été créée par les membres de la team Site Internet, rattachée à la patate Communication. N'hésitez pas à nous contacter pour toute demande de soutien. L'application utilise les technologies PHP et MySQL pour le back-end, la librairie Bootstrap pour l'affichage, ainsi que les données d'OpenStreetMap (licence libre) pour les cartes.</p>
 					</div>
 					<div class="col-sm-4 offset-md-1 py-4">
@@ -42,15 +49,63 @@
 			<section class="jumbotron text-center">
 				<div class="container">
 				<h1>Cartographie - Youth for Climate France</h1>
-				<p class="lead text-muted">L'outil de cration et de partage de cartes de Youth for Climate France. Par mesure de sécurité, la connexion se fait désormais via le Drive YFC.</p>
+				<p class="lead text-muted">Créez vos cartes et maintenez les données à jour facilement, le tout sur les serveurs de Youth for Climate. Pour des raisons de sécurité, merci de ne pas partager d'accès à cette interface.</p>
 				<p>
-					<a href="https://drive.youthforclimate.fr/index.php/apps/external/2" class="btn btn-primary my-2">Connexion</a>
+					<a href="create-map.php" class="btn btn-primary my-2">Créer une nouvelle carte</a>
+					<!--<a href="#list" class="btn btn-secondary my-2">Modifier une carte</a>-->
 				</p>
 				</div>
 			</section>
+
+			<div class="album py-5" id="list">
+				<div class="row">
+					<div class="container">
+					<?php while ($map = $maps->fetch()) { ?>
+					
+						<div class="col-12" style="margin-bottom: 20px;">
+							<div class="card shadow-sm">
+								<div class="card-body">
+									<h3><?php echo $map["name"] ?></h3>
+									<p class="card-text"><?php echo $map["description"] ?></p>
+									<div class="d-flex justify-content-between align-items-center">
+										<div class="btn-group">
+											<a class="btn btn-primary" href="../viewmap.php?id=<?php echo $map["id"] ?>">Voir</a>
+											<span class="btn btn-outline-secondary" onclick="copyToClipboard('https://carto.youthforclimate.fr/viewmap.php?id=<?php echo $map["id"] ?>')">Copier le lien</span>
+											<a class="btn btn-outline-secondary" href="update-map.php?mapid=<?php echo $map["id"] ?>">Configurer</a>
+										</div>
+										<div class="btn-group">
+											<a class="btn btn-outline-primary" href="new.php?id=<?php echo $map["id"] ?>">Ajouter un point</a>
+											<a class="btn btn-outline-primary" href="update.php?id=<?php echo $map["id"] ?>">Modifier un point</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					<?php } ?>
+					</div>
+				</div>
+			</div>
 		</main>
 
-		<script src="assets/jquery.min.js"></script>
-		<script src="assets/bootstrap.min.js"></script>
+		<script src="../assets/jquery.min.js"></script>
+		<script src="../assets/bootstrap.min.js"></script>
+		<script>
+			function copyToClipboard (str) {
+				// Create new element
+				var el = document.createElement('textarea');
+				// Set value (string to be copied)
+				el.value = str;
+				// Set non-editable to avoid focus and move outside of view
+				el.setAttribute('readonly', '');
+				el.style = {position: 'absolute', left: '-9999px'};
+				document.body.appendChild(el);
+				// Select text inside element
+				el.select();
+				// Copy text to clipboard
+				document.execCommand('copy');
+				// Remove temporary element
+				document.body.removeChild(el);
+    		}
+		</script>
 	</body>
 </html>
