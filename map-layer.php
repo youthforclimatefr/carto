@@ -106,7 +106,8 @@
 	})
 	.addTo(map);
 
-	var fond = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+// https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+	var fond = L.tileLayer('https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.youthforclimate.fr">Youth for Climate France</a>'
 	});
 	fond.addTo(map);
