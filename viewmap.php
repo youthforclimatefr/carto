@@ -3,7 +3,11 @@
 	<head>
 		<title>Carte - Youth for Climate France</title>
 		<link rel="stylesheet" href="assets/leaflet.css"/>
+		<link rel="stylesheet" href="assets/leaflet-search.css"/>
+
 		<script src="assets/leaflet.js"></script>
+		<script src="assets/leaflet-search.min.js"></script>
+
    		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<style>
@@ -19,7 +23,9 @@
 	<body>
 		<div id="map"></div>
 		<script>
-			var map = L.map('map').setView([46.85, 2.3518],6);
+			var map = L.map('map', {
+				scrollWheelZoom: false
+			}).setView([46.85, 2.3518],6);
 
 			var yfcIcon4 = L.icon({
 				iconUrl: 'https://toolpic.youthforclimate.fr/carto/assets/images/yfc-feuilles-blanc-vert-contour.png',
@@ -57,6 +63,7 @@
 					onEachFeature: onEachFeature
 				});
 				geoJsonLayer.addTo(map);
+				map.addControl( new L.Control.Search({layer: geoJsonLayer}) );
 			};
 			xhr.send();
 
