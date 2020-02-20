@@ -1,10 +1,21 @@
+<?php
+
+include 'inc/functions.php';
+
+if (isset($_GET["id"])) {
+	$geodata = toGeoJson($_GET["id"]);
+} else {
+	echo '400 Bad Request';
+}
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
 		<title>Cartographie - Youth for Climate France</title>
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="../assets/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/bootstrap.min.css" />
 	</head>
 	<body>
 		<header>
@@ -41,16 +52,41 @@
 		<main role="main">
 			<section class="jumbotron text-center">
 				<div class="container">
-				<h1>Cartographie - Youth for Climate France</h1>
-				<p class="lead text-muted">L'outil de cration et de partage de cartes de Youth for Climate France. Vous êtes actuellement sur l'interface de modification publique.</p>
-				<p>
-					<a href="https://drive.youthforclimate.fr/index.php/apps/external/2" class="btn btn-primary my-2">Connexion</a>
-				</p>
+				<h1>Liste des points de la carte</h1>
+				<p class="lead text-muted">La liste est mise à jour automatiquement à l'ajout de nouveaux points</p>
+                <?php if (isset($_GET["id"])) { ?>
+                    <p>
+					    <a href="/viewmap.php?id=<?php echo $_GET["id"] ?>" class="btn btn-primary my-2">Voir la carte</a>
+				    </p>
+                <?php } ?>
 				</div>
 			</section>
 		</main>
+<div class="container">
+        <?php
+if (isset($geodata)) {
+    $geodataparse = json_decode($geodata);
+    $points = $geodataparse->features;
+    foreach ($points as $point) {
+        $data = $point->properties;
+?>
 
-		<script src="../assets/jquery.min.js"></script>
-		<script src="../assets/bootstrap.min.js"></script>
+<div class="col-12" style="margin-bottom: 20px;">
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h3><?php echo $data->name ?></h3>
+            <p class="card-text"><?php echo $data->description ?></p>
+        </div>
+    </div>
+</div>
+
+<?php
+    }
+}
+?>
+</div>
+		<script src="assets/jquery.min.js"></script>
+		<script src="assets/bootstrap.min.js"></script>
 	</body>
 </html>
+
