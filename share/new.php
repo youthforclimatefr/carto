@@ -64,8 +64,8 @@
     				<h1>Ajouter un point</h1>
     				<p class="lead">Les données ont été enregistrées et seront publiées rapidement sur la carte !</p>
 					<a class="btn btn-lg btn-primary" href="." role="button">Retour à l'accueil</a>
-					<a class="btn btn-lg btn-secondary" href="new.php?id=<?php echo $_GET["id"] ?>" role="button">Nouveau point</a>
-					<a class="btn btn-lg btn-secondary" href="update.php?id=<?php echo $_GET["id"] ?>" role="button">Modifier le point</a>
+					<a class="btn btn-lg btn-secondary" href="new.php?id=<?php echo $_GET["mapid"] ?>" role="button">Nouveau point</a>
+					<a class="btn btn-lg btn-secondary" href="update.php?pointid=<?php echo $_GET["mapid"] ?>&mapid=<?php echo $_GET["id"] ?>" role="button">Modifier le point</a>
   				</div>
 			</div>
 		</main>

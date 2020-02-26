@@ -2,7 +2,7 @@
 
 if (isset($_POST['adress'])) {
 	$address = rawurlencode( $_POST['adress'] );
-	$url  = 'http://nominatim.openstreetmap.org/?format=json&addressdetails=1&q=' . $address . '&format=json&limit=1';
+	$url  = 'https://nominatim.openstreetmap.org/?format=json&addressdetails=1&q=' . $address . '&format=json&limit=1';
 	$opts = array(
 		'http'=>array(
 			'method'=>"GET",
