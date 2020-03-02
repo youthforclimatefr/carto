@@ -2,11 +2,10 @@
 
 	include '../inc/functions.php';
 
-	if (isset($_POST['mapid'], $_POST['pointid'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon'])) {
+	if (!empty($_POST['mapid']) && !empty($_POST['pointid']) && empty($_POST['name']) && empty($_POST['description']) && empty($_POST['lat']) && empty($_POST['lon'])) {
 
 		$status = updatePoint($_POST['mapid'], $_POST['pointid'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon']);
-	} elseif (isset($_GET['mapid'], $_GET['pointid'])) {
-
+	} elseif (!empty($_GET['mapid']) && empty($_GET['pointid'])) {
 		$donnees = getPointData($_GET['mapid'], $_GET['pointid']);
 	}
 ?>

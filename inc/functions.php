@@ -119,7 +119,7 @@ function newPoint($mapId, $id, $name, $description, $lat, $long) {
 
 	$clean_mapid = removeSpecialChars($mapId);
 
-	$req = $bdd->prepare('INSERT INTO '. $clean_mapid .' VALUES(:id, :name, :description, :lat, :lon)');
+	$req = $bdd->prepare('INSERT INTO `'. $clean_mapid .'` VALUES(:id, :name, :description, :lat, :lon)');
 	$req->execute(array(
 		'id' => removeSpecialChars($id),
 		'name' => strip_tags($name),
@@ -204,4 +204,12 @@ function publicEdit($mapid) {
 		return true;
 	} else return false;
 }
+
+function internal_error($message){
+    header($_SERVER["SERVER_PROTOCOL"] . ' 500 Internal Server Error', true, 500);
+	echo '<h1>Something went wrong!</h1>';
+	echo $message;
+    exit;
+}
+
 ?>

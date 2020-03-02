@@ -2,10 +2,10 @@
 
 	include '../inc/functions.php';
 
-	if (isset($_POST['mapid'], $_POST['name'], $_POST['description'], $_POST['pubEdit'])) {
+	if (!empty($_POST['mapid']) && !empty($_POST['name']) && !empty($_POST['description']) && !empty($_POST['pubEdit'])) {
 		$status = updateMap($_POST['mapid'], $_POST['name'], $_POST['description'], $_POST['pubEdit']);
 	
-	} elseif (isset($_GET['mapid'])) {
+	} elseif (!empty($_GET['mapid'])) {
 		$donnees = getMapInfo($_GET['mapid']);
 	}
 ?>

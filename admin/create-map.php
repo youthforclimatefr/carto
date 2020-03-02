@@ -2,7 +2,7 @@
 
 	include '../inc/functions.php';
 
-	if (isset($_POST['id'], $_POST['name'], $_POST['description'], $_POST['pubEdit'])) {
+	if (!empty($_POST['id']) && !empty($_POST['name']) && !empty($_POST['description']) && !empty($_POST['pubEdit'])) {
 		$status = createMap($_POST['id'], $_POST['name'], $_POST['description'], $_POST['pubEdit']);
 	}
 

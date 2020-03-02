@@ -2,10 +2,10 @@
 
 	include '../inc/functions.php';
 
-	if (isset($_POST['mapid'], $_POST['pointid'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon'])) {
+	if (!empty($_POST['mapid']) && empty($_POST['pointid']) && empty($_POST['name']) && empty($_POST['description']) && empty($_POST['lat']) && empty($_POST['lon'])) {
 
 		$status = updatePoint($_POST['mapid'], $_POST['pointid'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon']);
-	} elseif (isset($_GET['mapid'], $_GET['pointid'])) {
+	} elseif (!empty($_GET['mapid']) && !empty($_GET['pointid'])) {
 
 		$donnees = getPointData($_GET['mapid'], $_GET['pointid']);
 	}
@@ -71,7 +71,7 @@
     		<p class="lead">Les données ont été enregistrées et seront publiées rapidement sur la carte !</p>
 			<a class="btn btn-lg btn-primary" href="." role="button">Retour à l'accueil</a>
 			<a class="btn btn-lg btn-secondary" href="new.php?id=<?php echo $_POST["mapid"] ?>" role="button">Nouveau point</a>
-			<a class="btn btn-lg btn-secondary" href="update.php?id=<?php echo $_POST["mapid"] ?>" role="button">Modifier un autre point</a>
+			<a class="btn btn-lg btn-secondary" href="update.php?mapid=<?php echo $_POST["mapid"] ?>" role="button">Modifier un autre point</a>
   		</div>
 	</div>
 </main>

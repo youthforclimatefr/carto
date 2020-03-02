@@ -1,7 +1,7 @@
 <?php 
 
 	include '../inc/functions.php';
-	if (isset($_GET['mapid'], $_GET['pointid'])) {
+	if (!empty($_GET['mapid']) && !empty($_GET['pointid'])) {
 		$status = deletePoint($_GET['mapid'], $_GET['pointid']);
 	}
 ?>
