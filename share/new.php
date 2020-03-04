@@ -67,7 +67,8 @@
 			<div class="container">
   				<div class="jumbotron mt-3">
     				<h1>Ajouter un point</h1>
-    				<p class="lead">Les données ont été enregistrées et seront publiées rapidement sur la carte !</p>
+    				<?php if ($status == false) { ?><p class="lead">ERREUR! Le point existe déjà.</p>
+					<?php } else { ?><p class="lead">Les données ont été enregistrées et seront publiées rapidement sur la carte !</p><?php } ?>
 					<a class="btn btn-lg btn-primary" href="." role="button">Retour à l'accueil</a>
 					<a class="btn btn-lg btn-secondary" href="new.php?id=<?php echo $_POST['mapid'] ?>" role="button">Nouveau point</a>
 					<a class="btn btn-lg btn-secondary" href="update.php?pointid=<?php echo $_POST['id'] ?>&mapid=<?php echo $_POST['mapid'] ?>" role="button">Modifier le point</a>

@@ -2,7 +2,7 @@
 
 	include '../inc/functions.php';
 
-	if (!empty($_POST['mapid']) && empty($_POST['pointid']) && empty($_POST['name']) && empty($_POST['description']) && empty($_POST['lat']) && empty($_POST['lon'])) {
+	if (!empty($_POST['mapid']) && !empty($_POST['pointid']) && !empty($_POST['name']) && !empty($_POST['description']) && !empty($_POST['lat']) && !empty($_POST['lon'])) {
 
 		$status = updatePoint($_POST['mapid'], $_POST['pointid'], $_POST['name'], $_POST['description'], $_POST['lat'], $_POST['lon']);
 	} elseif (!empty($_GET['mapid']) && !empty($_GET['pointid'])) {

@@ -114,21 +114,27 @@ function deletePoint($map, $id) {
 	return "success";
 }
 
+
+
 function newPoint($mapId, $id, $name, $description, $lat, $long) {
-	$bdd = createDbConnection();
+	if (getPointData($mapId, $id) != null) {
+		return false;
+	} else {
+		$bdd = createDbConnection();
 
-	$clean_mapid = removeSpecialChars($mapId);
+		$clean_mapid = removeSpecialChars($mapId);
 
-	$req = $bdd->prepare('INSERT INTO `'. $clean_mapid .'` VALUES(:id, :name, :description, :lat, :lon)');
-	$req->execute(array(
-		'id' => removeSpecialChars($id),
-		'name' => strip_tags($name),
-		'description' => $description,
-		'lat' => strip_tags($lat),
-		'lon' => strip_tags($long)
-	));
-	
-	return "sucess";
+		$req = $bdd->prepare('INSERT INTO `'. $clean_mapid .'` VALUES(:id, :name, :description, :lat, :lon)');
+		$req->execute(array(
+			'id' => removeSpecialChars($id),
+			'name' => strip_tags($name),
+			'description' => $description,
+			'lat' => strip_tags($lat),
+			'lon' => strip_tags($long)
+		));
+		
+		return "sucess";
+	}
 }
 
 function updatePoint($mapid, $id, $name, $description, $lat, $lon) {
