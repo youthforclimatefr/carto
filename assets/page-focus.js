@@ -21,6 +21,8 @@ var secondButton = document.getElementById("secondButton");
 function handleVisibilityChange() {
     changeCount++;
 
+    console.log(changeCount);
+
     if (!document[hidden] && changeCount > 1) {
         secondButton.hidden = false;
     }
