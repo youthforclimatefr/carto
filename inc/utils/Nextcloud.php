@@ -41,7 +41,7 @@ function connectUser() {
     curl_setopt($curl, CURLOPT_POSTFIELDS, "token=" . $_SESSION['tmp_token']); 
 
     try {
-        $resp = json_decode(curl_exec($curl));
+        $resp = json_decode(curl_exec($curl), true);
     
         $_SESSION['server'] = $resp['server'];
         $_SESSION['loginName'] = $resp['loginName'];
