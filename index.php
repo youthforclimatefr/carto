@@ -60,7 +60,7 @@ if (isset($_GET['login']) && $_GET['login']) {
 				<p class="lead text-muted">Outil de création et de partage de cartes. Par mesure de sécurité, la connexion se fait via un compte Nextcloud. Lorsque vous serez connecté, revenez sur cette page pour valider la connexion</p>
 				<p>
 					<a href="<?php getLoginURL() ?>" class="btn btn-primary my-2" target="_blank" id="firstButton">Connexion</a>
-					<a href="index.php?login=true" class="btn btn-primary my-2" target="_blank" id="secondButton">Valider la connexion</a>
+					<a href="index.php?login=true" class="btn btn-primary my-2" target="_blank" id="secondButton" hidden>Valider la connexion</a>
 				</p>
 				</div>
 			</section>

@@ -17,12 +17,12 @@ function getLoginURL(): string {
         'ACCEPT_LANGUAGE: fr'
     ));
 
-    $resp = json_decode(curl_exec($curl));
+    $resp = json_decode(curl_exec($curl), true);
     
     curl_close($curl);
 
     $_SESSION['tmp_token'] = $resp['poll']['token'];
-    $_SESSION['tmp_endpoint'] = $resp['poll']['token'];
+    $_SESSION['tmp_endpoint'] = $resp['poll']['endpoint'];
 
     return $resp['login'];
 }
