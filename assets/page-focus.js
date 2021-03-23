@@ -13,17 +13,13 @@ if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and 
     visibilityChange = "webkitvisibilitychange";
 }
 
-var firstButton = document.getElementById("firstButton");
-var secondButton = document.getElementById("secondButton");
-
 // If the page is hidden, pause the video;
 // if the page is shown, play the video
 function handleVisibilityChange() {
     changeCount++;
 
-    console.log(changeCount);
-
     if (!document[hidden] && changeCount > 1) {
+        var secondButton = document.getElementById("secondButton");
         secondButton.hidden = false;
     }
 }
