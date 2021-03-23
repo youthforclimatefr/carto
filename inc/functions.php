@@ -77,6 +77,54 @@ function toGeoJson($id) {
 	return json_encode($geoJson);
 }
 
+function toFFF($id) {
+	$bdd = createDbConnection();
+
+	$clean_id = removeSpecialChars($id);
+
+	$geoJson = json_decode('{
+		"title": "FFF New Global Map CitySearch", 
+		"generated": "2021-03-13 00:34", 
+		"encoding": "utf-8", 
+		"data": [],
+		"keys": [
+			"ECOUNTRY", "GSTATE", "ECITY", "ELOCATION", "ETIME", "EDATE", "EFREQ", "ELINK", 
+			"ETYPE", "GLAT", "GLON", "CNAME", "CEMAIL", "CPHONE", "CNOTES", "CORG2", "CCOL"
+		]
+	}');
+
+	if ( !empty($clean_id) ) {
+		$data = $bdd->prepare("SELECT * FROM " . $clean_id);
+		try {
+			$data->execute();
+		} catch(Exception $e) {
+			return json_encode($geoJson);
+		}
+
+		$point = array();
+		while ($pointData = $data->fetch()) {
+			$point['ECOUNTRY'] = "France";
+			$point['ECITY'] = $pointData['name'];
+			$point['EDATE'] = "2021-03-28";
+			$point['EFREQ'] = "Once only";
+			$point['ELINK'] = $pointData['description'];
+			$point['ETYPE'] = "Strike";
+			$point['GLAT'] = $pointData['lat'];
+			$point['GLON'] = $pointData['lon'];
+			$point['CEMAIL'] = "internet@youthforclimate.fr";
+			$point['CNOTES'] = "Please contact Youth for Climate France to get any information. We'll put you in contact with the local group.";
+			$point['RTIME'] = "28-03-2021-YFC";
+			$point['RSOURCE'] = "carto.youthforclimate.fr";
+			$point['CORG1'] = "Youth for Climate France";
+			$point['CSPOKE'] = "public";
+			$point['EDATEORIG'] = "2021-03-28";
+			$point['GLOC'] = $pointData['name'] . ", France";
+			$geoJson->data[] = $point;
+		}
+	}
+	return json_encode($geoJson);
+}
+
 function getMapsList() {
 	$bdd = createDbConnection();
 
