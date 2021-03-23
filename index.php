@@ -1,11 +1,13 @@
 <?php 
 
+session_start();
+
 require_once('inc/utils/Nextcloud.php');
 
 if (isset($_GET['login']) && $_GET['login']) {
 	connectUser();
 
-	if (isset($_SESSION['userName'])) {
+	if (isset($_SESSION['loginName'])) {
 		header("Location: /admin/");
 		exit();
 	}

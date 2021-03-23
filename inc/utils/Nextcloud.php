@@ -6,7 +6,6 @@ define('NC_LOGIN', 'https://cloud.becauseofprog.fr/index.php/login/v2');
  * Get a Nextcloud login URL
  */
 function getLoginURL(): string {
-    session_start();
 
     $curl = curl_init(NC_LOGIN);
     curl_setopt($curl, CURLOPT_URL, NC_LOGIN);
@@ -32,7 +31,6 @@ function getLoginURL(): string {
  * Connect the user with the fields 
  */
 function connectUser() {
-    session_start();
 
     $curl = curl_init($_SESSION['tmp_endpoint']);
     curl_setopt($curl, CURLOPT_URL, $_SESSION['tmp_endpoint']);
